@@ -9,3 +9,9 @@ jobs:
         run: yarn
       - name: Run tests
         run: yarn test
+      - name: Build ts to jo
+        run: yarn build
+      - name: Publish to npm
+        run: yarn publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

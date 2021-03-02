@@ -1,5 +1,5 @@
 {
-  "name": "wall-e",
+  "name": "@markdomkan/wall-e",
   "version": "1.0.0",
   "description": "Errors gestor for ts/js apps",
   "main": "dist/index.js",
@@ -7,7 +7,6 @@
   "repository": "git@gitlab.com:GlobalsDD/libs/wall-e.git",
   "author": "Marc Domenech <markdomkan@hotmail.com>",
   "license": "MIT",
-  "private": true,
   "scripts": {
     "build": "tsc",
     "serve": "tsc -w",
