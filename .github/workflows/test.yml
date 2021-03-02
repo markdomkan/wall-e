@@ -1,0 +1,10 @@
+name: CI
+on: push
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install modules
+        run: yarn
+      - name: Run tests
+        run: yarn test
