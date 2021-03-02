@@ -1,10 +1,10 @@
 {
-  "name": "@markdomkan/wall-e",
+  "name": "@markdomkan/wall_e",
   "version": "1.0.0",
   "description": "Errors gestor for ts/js apps",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "repository": "git@gitlab.com:GlobalsDD/libs/wall-e.git",
+  "repository": "https://github.com/markdomkan/wall-e",
   "author": "Marc Domenech <markdomkan@hotmail.com>",
   "license": "MIT",
   "scripts": {
@@ -13,6 +13,7 @@
     "lint": "eslint src/**/*.ts",
     "test": "jest"
   },
+  
   "devDependencies": {
     "@types/jest": "^26.0.20",
     "@typescript-eslint/eslint-plugin": "^4.15.2",
