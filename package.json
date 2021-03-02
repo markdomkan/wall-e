@@ -1,0 +1,29 @@
+{
+  "name": "wall-e",
+  "version": "1.0.0",
+  "description": "Errors gestor for ts/js apps",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": "git@gitlab.com:GlobalsDD/libs/wall-e.git",
+  "author": "Marc Domenech <markdomkan@hotmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "serve": "tsc -w",
+    "lint": "eslint src/**/*.ts",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.20",
+    "@typescript-eslint/eslint-plugin": "^4.15.2",
+    "@typescript-eslint/parser": "^4.15.2",
+    "eslint": "^7.21.0",
+    "jest": "^26.6.3",
+    "jest-extended": "^0.11.5",
+    "prettier": "^2.2.1",
+    "prettier-eslint": "^12.0.0",
+    "ts-jest": "^26.5.2",
+    "typescript": "^4.2.2"
+  }
+}

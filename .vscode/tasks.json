@@ -1,0 +1,12 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "serve",
+			"problemMatcher": [],
+			"label": "watch",
+			"detail": "tsc -w"
+		}
+	]
+}
