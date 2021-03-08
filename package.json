@@ -1,6 +1,6 @@
 {
   "name": "@markdomkan/wall_e",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Errors gestor for ts/js apps",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
