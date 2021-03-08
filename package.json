@@ -7,13 +7,15 @@
   "repository": "https://github.com/markdomkan/wall-e",
   "author": "Marc Domenech <markdomkan@hotmail.com>",
   "license": "MIT",
+  "files": [
+    "dist/"
+  ],
   "scripts": {
     "build": "tsc",
     "serve": "tsc -w",
     "lint": "eslint src/**/*.ts",
     "test": "jest"
   },
-  
   "devDependencies": {
     "@types/jest": "^26.0.20",
     "@typescript-eslint/eslint-plugin": "^4.15.2",
