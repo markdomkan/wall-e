@@ -17,7 +17,7 @@ yarn add @markdomkan/wall_e
 *CustomErrors.ts*
 
 ```ts
-import { Wall_eError } from "wall_e";
+import { Wall_eError } from "@markdomkan/wall_e";
 
 export class CustomError extends Wall_eError {
   message = "Custom message for show at user";
@@ -46,7 +46,7 @@ export class CustomError extends Wall_eError {
 
 *main.ts*
 ```ts
-import { registerWalle } from "wall_e";
+import { registerWalle } from "@markdomkan/wall_e";
 import { CustomError } from "./CustomErrors";
 
 // can be object, class, array... you will recive in action hooks
@@ -86,7 +86,7 @@ registerWalle(registerErrors, serviceBundle, showConsoleErrorWhenCapureError);
 3. Use w_catch fuction to catch your errors.
 
 ```ts
-import { w_catch } from "wall_e";
+import { w_catch } from "@markdomkan/wall_e";
 
 try {
     //
